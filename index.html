@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="engine.js"></script>
+    <script src="main.js"></script>
+    <script src="keyControll.js"></script>
+
+    <script>
+        var canvas_obj, x, y, h, w;
+    </script>
+</head>
+<body>
+    <canvas id="canvas" width="650px" height="750px" style="border: 1px solid gray;"></canvas>
+
+    <script>
+        var canvas_el = document.getElementById("canvas");
+
+        init();
+
+        setInterval(() => {
+            onUpdate();
+        }, 1000);
+
+        
+        addEventListener("keydown", (event) => {
+            event.preventDefault();
+
+            onKeyPress(event);
+            onUpdate();
+        });
+    </script>
+</body>
+</html>
