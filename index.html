@@ -6,6 +6,7 @@
     <title>Document</title>
 
     <script src="js/model/personagem.js" ></script>
+    <script src="js/model/tiro.js" ></script>
 
     <script src="js/engine.js"></script>
     <script src="js/main.js"></script>
@@ -13,6 +14,7 @@
 
     <script>
         var canvas_obj, h, w;
+        var tiros = [];
 
         const player = Personagem();
     </script>
@@ -27,14 +29,13 @@
 
         setInterval(() => {
             onUpdate();
-        }, 1000);
+        }, 50);
 
         
         addEventListener("keydown", (event) => {
             event.preventDefault();
 
             onKeyPress(event);
-            onUpdate();
         });
     </script>
 </body>

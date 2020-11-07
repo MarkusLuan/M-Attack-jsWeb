@@ -19,4 +19,5 @@ function onUpdate() {
     limparCanvas();
 
     moverPersonagem();
+    moverTiros();
 }

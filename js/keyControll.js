@@ -4,7 +4,8 @@ function onKeyPress(event){
     key = key.replace("KEY", "");
 
     if (key == "SPACE"){
-        console.log("Atirar");
+        var tiro = Tiro(player);
+        tiros.push(tiro);
     }
 
     keysMovimentacao(key);
