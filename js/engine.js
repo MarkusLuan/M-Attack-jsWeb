@@ -3,8 +3,8 @@ function init(){
     w = canvas_el.width;
     h = canvas_el.height;
 
-    x = w/2;
-    y = h/2;
+    player.x = w/2;
+    player.y = h/2;
 }
 
 function limparCanvas() {

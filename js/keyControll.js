@@ -10,25 +10,23 @@ function onKeyPress(event){
     keysMovimentacao(key);
     
     console.log(key);
-    console.log(x + ", " + y);
+    console.log(player.x + ", " + player.y);
 }
 
 function keysMovimentacao(key) {
-    var velocidade = 1.5;
-
     if (key == "ARROWUP"){
-        y -= velocidade;
+        player.y -= player.velocidade;
     }
 
     if (key == "ARROWDOWN"){
-        y += velocidade;
+        player.y += player.velocidade;
     }
     
     if (key == "ARROWLEFT"){
-        x -= velocidade;
+        player.x -= player.velocidade;
     }
 
     if (key == "ARROWRIGHT"){
-        x += velocidade;
+        player.x += player.velocidade;
     }
 }
