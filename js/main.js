@@ -28,26 +28,9 @@ function moverTiros(){
             tiros.splice(index, 1);
         }
 
-        if (tiro.por == player){
-            var inimigo = inimigos.find(inimigo => {
-                var minX = inimigo.x;
-                var maxX = inimigo.x + inimigo.w;
-                var minY = inimigo.y;
-                var maxY = inimigo.y + inimigo.h;
-
-                return (tiro.x >= minX && tiro.x <= maxX) &&
-                       (tiro.y >= minY && tiro.y <= maxY);
-            });
-
-            if (inimigo != null){
-                var index = inimigos.indexOf(inimigo);
-                inimigos.splice(index, 1);
-
-                index = tiros.indexOf(tiro);
-                tiros.splice(index, 1);
-
-                pontos += 2;
-            }
+        if (tiroColidir(tiro)){
+            index = tiros.indexOf(tiro);
+            tiros.splice(index, 1);
         }
     }
 }
@@ -56,6 +39,13 @@ function moverInimigos(){
     //Desenha cada tiro no canvas
     for (var inimigo of inimigos){
         inimigo.y += inimigo.velocidade;
+
+        var atirar = parseInt(Math.random() * 50);
+
+        if (atirar == 1) {
+            var tiro = Tiro(inimigo);
+            tiros.push(tiro);
+        }
 
         canvas_obj.fillStyle = "#0FF";
 
@@ -78,4 +68,42 @@ function desenharPontuacao(){
     canvas_obj.font = "30px Arial";
     canvas_obj.fillStyle = "#000";
     canvas_obj.fillText(`Pontos: ${pontos}`, 10, 50);
+}
+
+function tiroColidir(tiro){
+    var colidiu = false;
+
+    var inimigo = inimigos.find(inimigo => {
+        var minX = inimigo.x;
+        var maxX = inimigo.x + inimigo.w;
+        var minY = inimigo.y;
+        var maxY = inimigo.y + inimigo.h;
+
+        return tiro.por != inimigo &&
+                (tiro.x >= minX && tiro.x <= maxX) &&
+                (tiro.y >= minY && tiro.y <= maxY);
+    });
+
+    if (inimigo != null){
+        var index = inimigos.indexOf(inimigo);
+        inimigos.splice(index, 1);
+
+        if (tiro.por == player) pontos += 2;
+        colidiu = true;
+    }
+
+    if (tiro.por != player){
+        var minX = player.x;
+        var maxX = player.x + player.w;
+        var minY = player.y;
+        var maxY = player.y + player.h;
+
+        if ((tiro.x >= minX && tiro.x <= maxX) &&
+            (tiro.y >= minY && tiro.y <= maxY)){
+            pontos -= 5;
+            colidiu = true;
+        }
+    }
+
+    return colidiu;
 }
