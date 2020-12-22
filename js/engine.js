@@ -21,4 +21,5 @@ function onUpdate() {
     moverPersonagem();
     moverTiros();
     moverInimigos();
+    desenharPontuacao();
 }

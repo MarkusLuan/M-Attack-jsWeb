@@ -45,6 +45,8 @@ function moverTiros(){
 
                 index = tiros.indexOf(tiro);
                 tiros.splice(index, 1);
+
+                pontos += 2;
             }
         }
     }
@@ -70,4 +72,10 @@ function moverInimigos(){
             inimigos.splice(index, 1);
         }
     }
+}
+
+function desenharPontuacao(){
+    canvas_obj.font = "30px Arial";
+    canvas_obj.fillStyle = "#000";
+    canvas_obj.fillText(`Pontos: ${pontos}`, 10, 50);
 }
