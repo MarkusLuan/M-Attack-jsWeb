@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script src="js/model/personagem.js" ></script>
-    <script src="js/model/tiro.js" ></script>
-
-    <script src="js/engine.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/keyControll.js"></script>
-
-    <script>
-        var canvas_obj, h, w;
-        var tiros = [];
-        var inimigos = [];
-        var pontos = 0;
-
-        const player = Personagem();
-    </script>
-</head>
-<body>
-    <canvas id="canvas" width="650px" height="750px" style="border: 1px solid gray;"></canvas>
-
-    <script>
-        var canvas_el = document.getElementById("canvas");
-
-        init();
-
-        setInterval(() => {
-            onUpdate();
-        }, 50);
-
-        setInterval(() => {
-            var inimigo = Personagem();
-            inimigo.velocidade = 1;
-            inimigo.x = parseInt(Math.random() * (w - inimigo.w));
-            inimigo.y = 0;
-            inimigos.push(inimigo);
-        }, 3000);
-
-        addEventListener("keydown", (event) => {
-            event.preventDefault();
-
-            onKeyPress(event);
-        });
-    </script>
-</body>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <!-- Modelos -->
+      <script src="js/model/personagem.js" ></script>
+      <script src="js/model/tiro.js" ></script>
+      <!-- Engine -->
+      <script src="js/engine.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/keyControll.js"></script>
+      <script>
+         var canvas_obj, h, w;
+         var tiros = [];
+         var inimigos = [];
+         var pontos = 0;
+         const player = Personagem();
+      </script>
+   </head>
+   <body>
+      <canvas id="canvas" width="650px" height="750px" style="border: 1px solid gray;"></canvas>
+      <script>
+         var canvas_el = document.getElementById("canvas");
+         
+         init();
+         
+         setInterval(() => {
+             onUpdate();
+         }, 50);
+         
+         setInterval(() => {
+             var inimigo = Personagem();
+             inimigo.velocidade = 1;
+             inimigo.x = parseInt(Math.random() * (w - inimigo.w));
+             inimigo.y = 0;
+             inimigos.push(inimigo);
+         }, 3000);
+         
+         addEventListener("keydown", (event) => {
+             event.preventDefault();
+         
+             onKeyPress(event);
+         });
+      </script>
+   </body>
 </html>
