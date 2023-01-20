@@ -26,3 +26,4 @@
 ## Licença
 - A licença do jogo é do MarkusLuan.
 - A logo desse jogo é licenciada com [Licença Flaticon](https://www.flaticon.com/br/icone-gratis/area_5442086) a autoria/criação da logo é de [Mayor Icons](https://www.flaticon.com/br/autores/mayor-icons). Sua utilização é grátis para uso pessoal e comercial com atribuição.
+- O jogo está sendo desenvolvido com a contribuição de [codehangen](https://github.com/codehangen)
