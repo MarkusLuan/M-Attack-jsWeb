@@ -10,11 +10,9 @@
 
 <br/>
 
-## O que significa o nome m2?
-- O nome m2 tem como significado a ideia da medida que corresponde a um quadrado com um metro de comprimento em cada lado.  
-- O conceito de metro quadrado ou m2 é bastante utilizado para calcular o tamanho de uma área.  Por isso, é aplicado na verificação da área de imóveis, ambientes e terrenos. Assim como, tem sentido e é aplicado a qualquer jogo. 
-- Pensei em um nome sugestivo e m2 parecia fazer sentido já que parte do jogo necessita disso para funcionar. 
-- Mas em parte m2 é uma alusão ao nome do robô do Star Wars: R2-D2.
+## O que significa o nome M-Attack?
+- O nome originalmente era "m2" que tinha o significado a ideia da medida que corresponde a um quadrado com um metro de comprimento em cada lado.  O conceito de metro quadrado ou m2 é bastante utilizado para calcular o tamanho de uma área.  Por isso, é aplicado na verificação da área de imóveis, ambientes e terrenos. Assim como, tem sentido e é aplicado a qualquer jogo. Pensei em um nome sugestivo e m2 parecia fazer sentido já que parte do jogo necessita disso para funcionar.  Mas em parte m2 é uma alusão ao nome do robô do Star Wars: R2-D2.
+- Porém, talvez m2 iria confundir com os processadores da Apple na hora de pesquisar, e a Apple é bem chata em relação a isso, eles tem uma fama de jogar processo em tudo que pareça com ela. Nesse sentido, renomeamos para m-attack.
 
 <br/>
 
