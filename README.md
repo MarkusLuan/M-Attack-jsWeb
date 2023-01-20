@@ -1,10 +1,12 @@
 <br/>
 
-<p align="center">
+<p align="left">
   <img src="https://cdn-icons-png.flaticon.com/512/5442/5442086.png" width="80px"/>
 </p>
 
-<p align="center">
+<h2 align="left"> m-attack </h2>
+
+<p align="left">
   Um jogo sem frameworks direto no navegador com html, js e Canvas parecido com o jogo Megamania da Atari.
 </p>
 
