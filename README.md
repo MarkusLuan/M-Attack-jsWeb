@@ -11,7 +11,10 @@
 <br/>
 
 ## O que significa o nome m2?
-Metro quadrado: Um metro quadrado (1m2) equivale a dez mil centímetros quadrados (10.000 cm2). O principal uso da medida é o cálculo do tamanho de uma determinada área. Isso é um nome curioso já que todo jogo em parte é criado em uma determinada área.
+- O nome m2 tem como significado a ideia da medida que corresponde a um quadrado com um metro de comprimento em cada lado.  
+- O conceito de metro quadrado ou m2 é bastante utilizado para calcular o tamanho de uma área.  Por isso, é aplicado na verificação da área de imóveis, ambientes e terrenos. Assim como, tem sentido e é aplicado a qualquer jogo. 
+- Pensei em um nome sugestivo e m2 parecia fazer sentido já que parte do jogo necessita disso para funcionar. 
+- Mas em parte m2 é uma alusão ao nome do robô do Star Wars: R2-D2.
 
 <br/>
 
