@@ -2,13 +2,15 @@
   <img src="https://cdn-icons-png.flaticon.com/512/5442/5442086.png" width="80px"/> # m-attack
 </p>
 
-<center>
+<p align="center">
+jogo feito com html, js e Canvas - parecido com o jogo Megamania da Atari.
+</p>
 
-| imagem do jogo              | descrição do jogo                                                                                     |
-| --------------------------- | ----------------------------------------------------------------------------------------------------- |
-| <img src="./img/img1.png"/> | jogo sem frameworks direto no navegador com html, js e Canvas parecido com o jogo Megamania da Atari. | 
 
-</center>
+<p align="center">
+  <img src="./img/img1.png"/>   
+</p>
+
 
 A licença do jogo é da autoria/criação de [MarkusLuan](https://github.com/MarkusLuan) da organização [MkgCriacoes](https://github.com/MkgCriacoes/). Caso queira maiores informações, acesse esse link para o site [mkgcriacoes](https://mkgcriacoes.com.br/).
 
