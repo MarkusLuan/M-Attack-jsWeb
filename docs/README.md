@@ -22,7 +22,7 @@ Uma curiosidade é que o nome antes era **MeuPrimeiroJogo-jsWeb**, mas achamos q
 Um última curiosidade é que **m2(é outra alusão, é uma alusão ao nome do robô do Star Wars: R2-D2)**, o processo de alusão que colocamos no nome tem haver com a ideia de adicionar **easter eggs** que são uma expressão bastante usada no mundo dos games, filmes e tecnologia para descrever uma referência ou algo que está escondido dentro de uma mídia(jogo, filme, clipe musical etc).
 
 ### Como é jogar?
-<img src="./img/img1.png"/>
+<img src="https://user-images.githubusercontent.com/120995695/219826073-2af4d064-f632-4cb3-8a4e-b119ed48a93b.png"/>
 
 *O objetivo do jogo é evitar ser atirado pelas setas vermelhas, assim como atirar nos quadrados de cores acima.*
 
